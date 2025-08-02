@@ -31,10 +31,10 @@ CONFIG = {
         "your_domain": ""  # Your domain for gap analysis
     },
     "filters": {
-        "min_search_volume": 20,
+        "min_search_volume": 200,
         "max_search_volume": 50000,  # Avoid overly broad terms
         "min_cpc_cad": 0.5,  # Minimum CPC (too low = low commercial intent)
-        "max_cpc_cad": 8.0,
+        "max_cpc_cad": 20.0,
         "max_keyword_difficulty": 70,  # 0-100 scale
         "exclude_patterns": [
             r"\b(jobs?|careers?|salary|salaries|hiring|employment)\b",
