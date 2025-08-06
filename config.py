@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 CONFIG = {
+    "campaign_name": "Private mortgage",  # Campaign organization name
     "dataforseo": {
         "login": os.getenv("DATAFORSEO_LOGIN", "<YOUR_LOGIN>"),
         "password": os.getenv("DATAFORSEO_PASSWORD", "<YOUR_PASSWORD>"),
@@ -18,13 +19,13 @@ CONFIG = {
         "country": "Canada",
         "language": "en",  # Use ISO language code
         "provinces": ["Ontario,Canada", "British Columbia,Canada", "Alberta,Canada", "Quebec,Canada", "Saskatchewan,Canada", "Manitoba,Canada", "New Brunswick,Canada", "Newfoundland and Labrador,Canada", "Nova Scotia,Canada", "Prince Edward Island,Canada", "Northwest Territories,Canada", "Nunavut,Canada", "Yukon,Canada"],
-        "analyze_provinces": False  # Set False to skip province-level analysis
+        "analyze_provinces": True  # Set False to skip province-level analysis
     },
     "seed": {
         "business_terms": [
-            "mortgage canada",
-            "Home mortgage canada",
-            "Private mortgage canada"  # Professional minimal seed approach
+            "private mortgage lenders in Canada",
+            "apply for private mortgage Canada",
+            "best private mortgage rates Canada" # Professional minimal seed approach
         ],
         "competitor_domains": [
             
@@ -53,7 +54,7 @@ CONFIG = {
         "min_search_volume": 50,   # Lowered from 200 to capture more opportunities
         "max_search_volume": 50000,  # Avoid overly broad terms
         "min_cpc_cad": 0.10,  # Lowered from 0.50 to include more keywords
-        "max_cpc_cad": 20.0,
+        "max_cpc_cad": 50.0,
         "max_keyword_difficulty": 70,  # 0-100 scale
         "exclude_patterns": [
             r"\b(jobs?|careers?|salary|salaries|hiring|employment)\b",

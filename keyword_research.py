@@ -6,7 +6,11 @@ A production-ready Python pipeline for comprehensive keyword research using Data
 Author: Generated with Claude Code
 """
 import logging
+import os
+import shutil
+import json
 from pathlib import Path
+from datetime import datetime
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -28,6 +32,82 @@ from src.pipeline.campaign_exporter import CampaignExporter
 
 # Setup logging
 logger = setup_logging()
+
+
+def get_campaign_output_dir():
+    """Create campaign-specific output directory"""
+    campaign_name = CONFIG.get("campaign_name", "default_campaign")
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
+    
+    # Create campaign run directory
+    run_dir = Path(f"campaigns/{campaign_name}/runs/{timestamp}")
+    run_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Create data and exports subdirectories
+    (run_dir / "data").mkdir(exist_ok=True)
+    (run_dir / "exports").mkdir(exist_ok=True)
+    
+    return run_dir, timestamp, campaign_name
+
+
+def save_campaign_results(run_dir, timestamp, campaign_name):
+    """Move results to campaign directory and create metadata"""
+    files_moved = 0
+    
+    # Move data files
+    if Path("data").exists():
+        for item in Path("data").iterdir():
+            if item.is_file():
+                shutil.copy2(item, run_dir / "data" / item.name)
+                files_moved += 1
+            elif item.is_dir():
+                shutil.copytree(item, run_dir / "data" / item.name, dirs_exist_ok=True)
+                files_moved += len(list(item.glob("*")))
+    
+    # Move exports
+    if Path("exports").exists():
+        for item in Path("exports").iterdir():
+            if item.is_dir():
+                shutil.copytree(item, run_dir / "exports" / item.name, dirs_exist_ok=True)
+            else:
+                shutil.copy2(item, run_dir / "exports" / item.name)
+            files_moved += 1
+    
+    # Create run metadata
+    metadata = {
+        "campaign": campaign_name,
+        "timestamp": timestamp,
+        "run_date": datetime.now().isoformat(),
+        "seeds": CONFIG["seed"]["business_terms"],
+        "files_generated": [f.name for f in (run_dir / "data").glob("*") if f.is_file()]
+    }
+    
+    # Add keyword stats if available
+    scored_file = run_dir / "data" / "scored_keywords_v2.csv"
+    if scored_file.exists():
+        try:
+            import pandas as pd
+            df = pd.read_csv(scored_file)
+            metadata["keywords_found"] = len(df)
+            if 'total_score' in df.columns:
+                metadata["avg_score"] = float(df['total_score'].mean())
+        except Exception:
+            metadata["keywords_found"] = 0
+            metadata["avg_score"] = 0
+    
+    # Save metadata
+    with open(run_dir / "run_metadata.json", 'w') as f:
+        json.dump(metadata, f, indent=2)
+    
+    # Update latest symlink
+    latest_link = Path(f"campaigns/{campaign_name}/latest")
+    if latest_link.exists() or latest_link.is_symlink():
+        latest_link.unlink()
+    latest_link.symlink_to(Path("runs") / run_dir.name)
+    
+    print(f"📁 Campaign results saved to: {run_dir}")
+    print(f"🔗 Updated latest symlink: campaigns/{campaign_name}/latest")
+    return metadata
 
 
 def verify_credentials(api_client: DataForSEOClient) -> bool:
@@ -306,8 +386,17 @@ def main_improved():
             
             save_json(export_results["summary_stats"], "data/export_summary_v2.json", "Enhanced export summary")
         
-        # Step 9: Performance comparison
-        logger.info("📋 Step 9: Performance Analysis...")
+        # Step 9: Save to campaign structure
+        logger.info("📋 Step 9: Organizing Campaign Results...")
+        run_dir, timestamp, campaign_name = get_campaign_output_dir()
+        metadata = save_campaign_results(run_dir, timestamp, campaign_name)
+        
+        logger.info(f"✅ Campaign '{campaign_name}' completed!")
+        logger.info(f"📊 Keywords: {metadata.get('keywords_found', 'N/A')}")
+        logger.info(f"📁 Results: {run_dir}")
+        
+        # Step 10: Performance comparison
+        logger.info("📋 Step 10: Performance Analysis...")
         _log_performance_summary(seed_keywords_df, enriched_keywords_df, filtered_keywords_df, scored_keywords_df)
         
         logger.info("✅ Enhanced pipeline completed successfully!")
