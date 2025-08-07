@@ -9,22 +9,42 @@ from typing import Dict, Optional
 def discover_campaigns() -> Dict:
     """Discover all available campaigns"""
     campaigns = {}
-    # Look for campaigns directory in parent directory (from dashboard/)
-    campaign_dir = Path("../campaigns")
     
-    if not campaign_dir.exists():
+    # Try multiple possible paths for campaigns directory
+    possible_paths = [
+        Path("../campaigns"),  # From dashboard/ subdirectory
+        Path("campaigns"),     # From project root
+        Path("./campaigns")    # Current directory
+    ]
+    
+    campaign_dir = None
+    for path in possible_paths:
+        if path.exists():
+            campaign_dir = path
+            break
+    
+    if not campaign_dir:
+        # Debug: show current working directory and available paths
+        import os
+        st.sidebar.write(f"Debug: Current working directory: {os.getcwd()}")
+        st.sidebar.write(f"Debug: Available files/dirs: {list(Path('.').iterdir())}")
         return campaigns
     
     for campaign_path in campaign_dir.iterdir():
         if campaign_path.is_dir():
             campaign_name = campaign_path.name
-            latest = campaign_path / "latest"
             
-            if latest.exists():
-                campaigns[campaign_name] = {
-                    'path': latest,
-                    'name': campaign_name
-                }
+            # Find the latest run directory (instead of relying on symlinks)
+            runs_dir = campaign_path / "runs"
+            if runs_dir.exists():
+                # Get the most recent run by sorting directory names (timestamp-based)
+                run_dirs = [d for d in runs_dir.iterdir() if d.is_dir()]
+                if run_dirs:
+                    latest_run = sorted(run_dirs, key=lambda x: x.name)[-1]
+                    campaigns[campaign_name] = {
+                        'path': latest_run,
+                        'name': campaign_name
+                    }
     
     return campaigns
 
@@ -32,6 +52,9 @@ def discover_campaigns() -> Dict:
 def load_campaign_data(campaign_path: Path) -> Dict:
     """Load all data files for a campaign"""
     data = {}
+    
+    # Debug info for troubleshooting
+    st.sidebar.write(f"Loading from: {campaign_path}")
     
     # Load scored keywords (main dataset)
     scored_file = campaign_path / "data" / "scored_keywords_v2.csv"
