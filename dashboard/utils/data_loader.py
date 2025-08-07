@@ -24,10 +24,6 @@ def discover_campaigns() -> Dict:
             break
     
     if not campaign_dir:
-        # Debug: show current working directory and available paths
-        import os
-        st.sidebar.write(f"Debug: Current working directory: {os.getcwd()}")
-        st.sidebar.write(f"Debug: Available files/dirs: {list(Path('.').iterdir())}")
         return campaigns
     
     for campaign_path in campaign_dir.iterdir():
@@ -52,9 +48,6 @@ def discover_campaigns() -> Dict:
 def load_campaign_data(campaign_path: Path) -> Dict:
     """Load all data files for a campaign"""
     data = {}
-    
-    # Debug info for troubleshooting
-    st.sidebar.write(f"Loading from: {campaign_path}")
     
     # Load scored keywords (main dataset)
     scored_file = campaign_path / "data" / "scored_keywords_v2.csv"
