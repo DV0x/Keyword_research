@@ -116,3 +116,8 @@ The pipeline is designed to be industry-agnostic while providing deep customizat
 ## Research Tools Guidance
 
 - Only use Perplexity MCP for research
+
+## Development Shortcuts
+
+- Quickly activate virtual environment using:
+  - `source venv/bin/activate`

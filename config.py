@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 CONFIG = {
-    "campaign_name": "Private mortgage",  # Campaign organization name
+    "campaign_name": "Private lending",  # Campaign organization name
     "dataforseo": {
         "login": os.getenv("DATAFORSEO_LOGIN", "<YOUR_LOGIN>"),
         "password": os.getenv("DATAFORSEO_PASSWORD", "<YOUR_PASSWORD>"),
@@ -23,9 +23,9 @@ CONFIG = {
     },
     "seed": {
         "business_terms": [
-            "private mortgage lenders in Canada",
-            "apply for private mortgage Canada",
-            "best private mortgage rates Canada" # Professional minimal seed approach
+            "private mortgage",
+            "bridge loan",
+            "short-term financing" # Professional minimal seed approach
         ],
         "competitor_domains": [
             
