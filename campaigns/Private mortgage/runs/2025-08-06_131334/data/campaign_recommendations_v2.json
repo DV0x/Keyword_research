@@ -1,0 +1,29 @@
+{
+  "campaign_structure": {},
+  "budget_allocation": {
+    "High Priority": "0.0% of budget (0 keywords)",
+    "Medium Priority": "33.3% of budget (1 keywords)",
+    "Low Priority": "66.7% of budget (2 keywords)"
+  },
+  "launch_sequence": [
+    {
+      "keyword": "private mortgage lenders in ontario canada",
+      "total_score": 69.65,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "top private mortgage lenders in canada",
+      "total_score": 47.75,
+      "priority_tier": "Low",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "private mortgage lenders in canada",
+      "total_score": 43.28,
+      "priority_tier": "Low",
+      "category_cluster": "Uncategorized"
+    }
+  ],
+  "seasonal_calendar": {}
+}

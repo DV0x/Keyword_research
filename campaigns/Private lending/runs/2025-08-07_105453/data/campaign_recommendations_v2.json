@@ -1,0 +1,150 @@
+{
+  "campaign_structure": {
+    "High Priority - Uncategorized": {
+      "priority": "High",
+      "category": "Uncategorized",
+      "keyword_count": 29,
+      "recommended_daily_budget": "$500 CAD"
+    },
+    "Low Priority - Uncategorized": {
+      "priority": "Low",
+      "category": "Uncategorized",
+      "keyword_count": 72,
+      "recommended_daily_budget": "$500 CAD"
+    },
+    "Medium Priority - Uncategorized": {
+      "priority": "Medium",
+      "category": "Uncategorized",
+      "keyword_count": 27,
+      "recommended_daily_budget": "$500 CAD"
+    }
+  },
+  "budget_allocation": {
+    "High Priority": "22.7% of budget (29 keywords)",
+    "Medium Priority": "21.1% of budget (27 keywords)",
+    "Low Priority": "56.2% of budget (72 keywords)"
+  },
+  "launch_sequence": [
+    {
+      "keyword": "private finance for mortgage",
+      "total_score": 81.55,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "bridge to loan",
+      "total_score": 78.84,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "private mortgage companies",
+      "total_score": 75.0,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "private lenders mortgage",
+      "total_score": 75.0,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "private lender for mortgage",
+      "total_score": 75.0,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "private mortgage lender",
+      "total_score": 75.0,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "private loan mortgage",
+      "total_score": 75.0,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "private lender mortgage",
+      "total_score": 75.0,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "private mortgage loan companies",
+      "total_score": 74.0,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "mortgage from private lender",
+      "total_score": 74.0,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "mortgage loan private",
+      "total_score": 74.0,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "mortgage loan private lenders",
+      "total_score": 74.0,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "mortgage private lender",
+      "total_score": 74.0,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "private mortgage lenders",
+      "total_score": 74.0,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "mortgage private lenders",
+      "total_score": 74.0,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "private mortgage company",
+      "total_score": 73.8,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "mortgage lenders private",
+      "total_score": 73.6,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "private mortgage loan lenders",
+      "total_score": 73.6,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "private lenders for mortgage loans",
+      "total_score": 73.4,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "private home mortgage lenders",
+      "total_score": 73.2,
+      "priority_tier": "High",
+      "category_cluster": "Uncategorized"
+    }
+  ],
+  "seasonal_calendar": {}
+}

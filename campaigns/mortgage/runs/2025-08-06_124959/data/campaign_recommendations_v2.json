@@ -1,0 +1,144 @@
+{
+  "campaign_structure": {
+    "Low Priority - Uncategorized": {
+      "priority": "Low",
+      "category": "Uncategorized",
+      "keyword_count": 63,
+      "recommended_daily_budget": "$500 CAD"
+    },
+    "Medium Priority - Uncategorized": {
+      "priority": "Medium",
+      "category": "Uncategorized",
+      "keyword_count": 23,
+      "recommended_daily_budget": "$500 CAD"
+    }
+  },
+  "budget_allocation": {
+    "High Priority": "0.0% of budget (0 keywords)",
+    "Medium Priority": "26.7% of budget (23 keywords)",
+    "Low Priority": "73.3% of budget (63 keywords)"
+  },
+  "launch_sequence": [
+    {
+      "keyword": "canada mortgage loan calculator",
+      "total_score": 64.2,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "mortgage payments calculator canada",
+      "total_score": 63.4,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "calculator mortgage canada",
+      "total_score": 62.6,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "mortgage payment calculator in canada",
+      "total_score": 62.6,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "mortgage calculator and canada",
+      "total_score": 62.2,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "mortgage calculator for canada",
+      "total_score": 61.8,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "canada mortgage calculators",
+      "total_score": 61.8,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "mortgage calculator in canada",
+      "total_score": 61.6,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "best mortgage deals canada",
+      "total_score": 59.75,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "best mortgage deals in canada",
+      "total_score": 56.55,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "car mortgage calculator canada",
+      "total_score": 55.69,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "monster mortgage canada",
+      "total_score": 55.41,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "royal bank canada mortgage",
+      "total_score": 53.07,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "cibc canada mortgage",
+      "total_score": 53.06,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "northwoods mortgage canada",
+      "total_score": 51.45,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "mortgage calculator canada bc",
+      "total_score": 51.21,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "royal bank of canada mortgage",
+      "total_score": 51.07,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "canada halal mortgage",
+      "total_score": 50.81,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "mortgage calculator bc canada",
+      "total_score": 50.61,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    },
+    {
+      "keyword": "halal mortgage canada",
+      "total_score": 50.61,
+      "priority_tier": "Medium",
+      "category_cluster": "Uncategorized"
+    }
+  ],
+  "seasonal_calendar": {}
+}

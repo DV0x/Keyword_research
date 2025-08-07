@@ -1,0 +1,199 @@
+{
+  "semantic_clusters": 17,
+  "difficulty_tiers": 3,
+  "total_keywords": 86,
+  "recommended_campaigns": [
+    {
+      "campaign_name": "Campaign: mortgage insurance + insurance...",
+      "ad_groups": [
+        {
+          "name": "AG: mortgage insurance + insu",
+          "keywords": 2,
+          "estimated_monthly_volume": 1760,
+          "avg_cpc": 6.23
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_0_mortgage_insurance_insurance_canada_insurance.csv"
+    },
+    {
+      "campaign_name": "Campaign: bank + companies + mortgage co...",
+      "ad_groups": [
+        {
+          "name": "AG: bank + companies + mortga",
+          "keywords": 15,
+          "estimated_monthly_volume": 36940,
+          "avg_cpc": 6.39
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_1_bank_companies_mortgage_companies.csv"
+    },
+    {
+      "campaign_name": "Campaign: calculator + mortgage calculat...",
+      "ad_groups": [
+        {
+          "name": "AG: calculator + mortgage cal",
+          "keywords": 15,
+          "estimated_monthly_volume": 364700,
+          "avg_cpc": 0.88
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_2_calculator_mortgage_calculator_calculator_canada.csv"
+    },
+    {
+      "campaign_name": "Campaign: halal mortgage + halal + mortg...",
+      "ad_groups": [
+        {
+          "name": "AG: halal mortgage + halal + ",
+          "keywords": 3,
+          "estimated_monthly_volume": 5700,
+          "avg_cpc": 3.64
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_4_halal_mortgage_halal_mortgage_canada.csv"
+    },
+    {
+      "campaign_name": "Campaign: mortgage canada + private mort...",
+      "ad_groups": [
+        {
+          "name": "AG: mortgage canada + private",
+          "keywords": 8,
+          "estimated_monthly_volume": 57640,
+          "avg_cpc": 6.19
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_5_mortgage_canada_private_mortgage_private.csv"
+    },
+    {
+      "campaign_name": "Campaign: rate + mortgage rate + prime...",
+      "ad_groups": [
+        {
+          "name": "AG: rate + mortgage rate + pr",
+          "keywords": 4,
+          "estimated_monthly_volume": 11200,
+          "avg_cpc": 1.63
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_6_rate_mortgage_rate_prime.csv"
+    },
+    {
+      "campaign_name": "Campaign: canada mortgage + royal bank +...",
+      "ad_groups": [
+        {
+          "name": "AG: canada mortgage + royal b",
+          "keywords": 3,
+          "estimated_monthly_volume": 58000,
+          "avg_cpc": 3.46
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_7_canada_mortgage_royal_bank_corporation.csv"
+    },
+    {
+      "campaign_name": "Campaign: loan + mortgage loan + loan in...",
+      "ad_groups": [
+        {
+          "name": "AG: loan + mortgage loan + lo",
+          "keywords": 3,
+          "estimated_monthly_volume": 51260,
+          "avg_cpc": 4.35
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_8_loan_mortgage_loan_loan_insurance.csv"
+    },
+    {
+      "campaign_name": "Campaign: news + mortgage news + news ca...",
+      "ad_groups": [
+        {
+          "name": "AG: news + mortgage news + ne",
+          "keywords": 5,
+          "estimated_monthly_volume": 7400,
+          "avg_cpc": 9.45
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_9_news_mortgage_news_news_canada.csv"
+    },
+    {
+      "campaign_name": "Campaign: mortgage professionals + profe...",
+      "ad_groups": [
+        {
+          "name": "AG: mortgage professionals + ",
+          "keywords": 2,
+          "estimated_monthly_volume": 3200,
+          "avg_cpc": 0.91
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_10_mortgage_professionals_professionals_canada_profes.csv"
+    },
+    {
+      "campaign_name": "Campaign: lender + mortgage lender + len...",
+      "ad_groups": [
+        {
+          "name": "AG: lender + mortgage lender ",
+          "keywords": 3,
+          "estimated_monthly_volume": 1900,
+          "avg_cpc": 11.25
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_11_lender_mortgage_lender_lender_canada.csv"
+    },
+    {
+      "campaign_name": "Campaign: deals + mortgage deals + deals...",
+      "ad_groups": [
+        {
+          "name": "AG: deals + mortgage deals + ",
+          "keywords": 2,
+          "estimated_monthly_volume": 24200,
+          "avg_cpc": 2.52
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_12_deals_mortgage_deals_deals_canada.csv"
+    },
+    {
+      "campaign_name": "Campaign: home + home mortgage + mortgag...",
+      "ad_groups": [
+        {
+          "name": "AG: home + home mortgage + mo",
+          "keywords": 5,
+          "estimated_monthly_volume": 1520,
+          "avg_cpc": 3.24
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_13_home_home_mortgage_mortgage_calculator.csv"
+    },
+    {
+      "campaign_name": "Campaign: reverse mortgage + reverse + m...",
+      "ad_groups": [
+        {
+          "name": "AG: reverse mortgage + revers",
+          "keywords": 3,
+          "estimated_monthly_volume": 10800,
+          "avg_cpc": 12.9
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_14_reverse_mortgage_reverse_mortgage_canada.csv"
+    },
+    {
+      "campaign_name": "Campaign: company canada + mortgage comp...",
+      "ad_groups": [
+        {
+          "name": "AG: company canada + mortgage",
+          "keywords": 2,
+          "estimated_monthly_volume": 1760,
+          "avg_cpc": 9.14
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_15_company_canada_mortgage_company_company.csv"
+    },
+    {
+      "campaign_name": "Campaign: housing + mortgage housing + c...",
+      "ad_groups": [
+        {
+          "name": "AG: housing + mortgage housin",
+          "keywords": 4,
+          "estimated_monthly_volume": 11600,
+          "avg_cpc": 3.64
+        }
+      ],
+      "cluster_file": "data/clusters/semantic_cluster_16_housing_mortgage_housing_corporation.csv"
+    }
+  ]
+}

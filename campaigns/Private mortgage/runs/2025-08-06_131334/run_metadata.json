@@ -1,0 +1,22 @@
+{
+  "campaign": "Private mortgage",
+  "timestamp": "2025-08-06_131334",
+  "run_date": "2025-08-06T13:13:34.395520",
+  "seeds": [
+    "private mortgage lenders in Canada",
+    "apply for private mortgage Canada",
+    "best private mortgage rates Canada"
+  ],
+  "files_generated": [
+    "export_summary_v2.json",
+    "negative_keywords_v2.txt",
+    "filtered_keywords_v2.csv",
+    "campaign_recommendations_v2.json",
+    "competitor_keywords_v2.csv",
+    "seed_keywords_v2.csv",
+    "scored_keywords_v2.csv",
+    "enriched_keywords_v2.csv"
+  ],
+  "keywords_found": 3,
+  "avg_score": 53.56
+}

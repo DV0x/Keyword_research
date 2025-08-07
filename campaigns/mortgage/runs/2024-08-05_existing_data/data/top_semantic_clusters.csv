@@ -1,0 +1,6 @@
+cluster_id,cluster_name,keyword_count,avg_search_volume,total_search_volume,avg_cpc,filename
+2,calculator + mortgage calculator + calculator canada,15,24313.0,364700,0.88,data/clusters/semantic_cluster_2_calculator_mortgage_calculator_calculator_canada.csv
+7,canada mortgage + royal bank + corporation,3,19333.0,58000,3.46,data/clusters/semantic_cluster_7_canada_mortgage_royal_bank_corporation.csv
+5,mortgage canada + private mortgage + private,8,7205.0,57640,6.19,data/clusters/semantic_cluster_5_mortgage_canada_private_mortgage_private.csv
+8,loan + mortgage loan + loan insurance,3,17087.0,51260,4.35,data/clusters/semantic_cluster_8_loan_mortgage_loan_loan_insurance.csv
+1,bank + companies + mortgage companies,15,2463.0,36940,6.39,data/clusters/semantic_cluster_1_bank_companies_mortgage_companies.csv

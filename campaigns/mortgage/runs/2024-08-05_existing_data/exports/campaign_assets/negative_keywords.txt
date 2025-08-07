@@ -1,0 +1,30 @@
+(course|training|certification|school|university)
+(free|diy|yourself)
+(jobs?|careers?|salary|salaries|hiring|employment)
+canada.ca
+career
+cheap
+cheapest
+cmhc
+complaint
+complaints
+course
+discount
+diy
+do it yourself
+education
+employment
+free
+government
+job
+jobs
+non profit
+promotion
+public
+review
+reviews
+salary
+sale
+scam
+training
+wage

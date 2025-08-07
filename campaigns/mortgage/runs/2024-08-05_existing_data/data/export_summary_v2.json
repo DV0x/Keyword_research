@@ -1,0 +1,24 @@
+{
+  "export_overview": {
+    "total_campaign_keywords": 3,
+    "total_monthly_search_volume": 26100,
+    "average_recommended_bid_cad": 2.45,
+    "campaign_tiers_created": 2,
+    "negative_keywords_generated": 30
+  },
+  "tier_distribution": {
+    "tier_2_high_volume": 2,
+    "tier_1_easy_wins": 1
+  },
+  "match_type_distribution": {
+    "exact": "2",
+    "broad": "1"
+  },
+  "intent_distribution": {
+    "commercial": "3"
+  },
+  "budget_estimation": {
+    "estimated_monthly_budget_cad": 127.72,
+    "recommended_daily_budget_cad": 4.26
+  }
+}

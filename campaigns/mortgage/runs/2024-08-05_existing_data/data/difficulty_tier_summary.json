@@ -1,0 +1,23 @@
+[
+  {
+    "difficulty_tier": "Easy",
+    "keyword_count": 33,
+    "avg_search_volume": 2290.0,
+    "avg_cpc": 8.43,
+    "filename": "data/tiers/easy_tier_keywords.csv"
+  },
+  {
+    "difficulty_tier": "Hard",
+    "keyword_count": 14,
+    "avg_search_volume": 22647.0,
+    "avg_cpc": 3.65,
+    "filename": "data/tiers/hard_tier_keywords.csv"
+  },
+  {
+    "difficulty_tier": "Medium",
+    "keyword_count": 39,
+    "avg_search_volume": 6611.0,
+    "avg_cpc": 4.05,
+    "filename": "data/tiers/medium_tier_keywords.csv"
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "cluster_id": 0,
+    "cluster_name": "mortgage insurance + insurance canada + insurance",
+    "keyword_count": 2,
+    "avg_search_volume": 880.0,
+    "total_search_volume": 1760,
+    "avg_cpc": 6.23,
+    "filename": "data/clusters/semantic_cluster_0_mortgage_insurance_insurance_canada_insurance.csv"
+  },
+  {
+    "cluster_id": 1,
+    "cluster_name": "bank + companies + mortgage companies",
+    "keyword_count": 15,
+    "avg_search_volume": 2463.0,
+    "total_search_volume": 36940,
+    "avg_cpc": 6.39,
+    "filename": "data/clusters/semantic_cluster_1_bank_companies_mortgage_companies.csv"
+  },
+  {
+    "cluster_id": 2,
+    "cluster_name": "calculator + mortgage calculator + calculator canada",
+    "keyword_count": 15,
+    "avg_search_volume": 24313.0,
+    "total_search_volume": 364700,
+    "avg_cpc": 0.88,
+    "filename": "data/clusters/semantic_cluster_2_calculator_mortgage_calculator_calculator_canada.csv"
+  },
+  {
+    "cluster_id": 3,
+    "cluster_name": "private + lenders + private mortgage",
+    "keyword_count": 7,
+    "avg_search_volume": 126.0,
+    "total_search_volume": 880,
+    "avg_cpc": 14.28,
+    "filename": "data/clusters/semantic_cluster_3_private_lenders_private_mortgage.csv"
+  },
+  {
+    "cluster_id": 4,
+    "cluster_name": "halal mortgage + halal + mortgage canada",
+    "keyword_count": 3,
+    "avg_search_volume": 1900.0,
+    "total_search_volume": 5700,
+    "avg_cpc": 3.64,
+    "filename": "data/clusters/semantic_cluster_4_halal_mortgage_halal_mortgage_canada.csv"
+  },
+  {
+    "cluster_id": 5,
+    "cluster_name": "mortgage canada + private mortgage + private",
+    "keyword_count": 8,
+    "avg_search_volume": 7205.0,
+    "total_search_volume": 57640,
+    "avg_cpc": 6.19,
+    "filename": "data/clusters/semantic_cluster_5_mortgage_canada_private_mortgage_private.csv"
+  },
+  {
+    "cluster_id": 6,
+    "cluster_name": "rate + mortgage rate + prime",
+    "keyword_count": 4,
+    "avg_search_volume": 2800.0,
+    "total_search_volume": 11200,
+    "avg_cpc": 1.63,
+    "filename": "data/clusters/semantic_cluster_6_rate_mortgage_rate_prime.csv"
+  },
+  {
+    "cluster_id": 7,
+    "cluster_name": "canada mortgage + royal bank + corporation",
+    "keyword_count": 3,
+    "avg_search_volume": 19333.0,
+    "total_search_volume": 58000,
+    "avg_cpc": 3.46,
+    "filename": "data/clusters/semantic_cluster_7_canada_mortgage_royal_bank_corporation.csv"
+  },
+  {
+    "cluster_id": 8,
+    "cluster_name": "loan + mortgage loan + loan insurance",
+    "keyword_count": 3,
+    "avg_search_volume": 17087.0,
+    "total_search_volume": 51260,
+    "avg_cpc": 4.35,
+    "filename": "data/clusters/semantic_cluster_8_loan_mortgage_loan_loan_insurance.csv"
+  },
+  {
+    "cluster_id": 9,
+    "cluster_name": "news + mortgage news + news canada",
+    "keyword_count": 5,
+    "avg_search_volume": 1480.0,
+    "total_search_volume": 7400,
+    "avg_cpc": 9.45,
+    "filename": "data/clusters/semantic_cluster_9_news_mortgage_news_news_canada.csv"
+  },
+  {
+    "cluster_id": 10,
+    "cluster_name": "mortgage professionals + professionals canada + professionals",
+    "keyword_count": 2,
+    "avg_search_volume": 1600.0,
+    "total_search_volume": 3200,
+    "avg_cpc": 0.91,
+    "filename": "data/clusters/semantic_cluster_10_mortgage_professionals_professionals_canada_profes.csv"
+  },
+  {
+    "cluster_id": 11,
+    "cluster_name": "lender + mortgage lender + lender canada",
+    "keyword_count": 3,
+    "avg_search_volume": 633.0,
+    "total_search_volume": 1900,
+    "avg_cpc": 11.25,
+    "filename": "data/clusters/semantic_cluster_11_lender_mortgage_lender_lender_canada.csv"
+  },
+  {
+    "cluster_id": 12,
+    "cluster_name": "deals + mortgage deals + deals canada",
+    "keyword_count": 2,
+    "avg_search_volume": 12100.0,
+    "total_search_volume": 24200,
+    "avg_cpc": 2.52,
+    "filename": "data/clusters/semantic_cluster_12_deals_mortgage_deals_deals_canada.csv"
+  },
+  {
+    "cluster_id": 13,
+    "cluster_name": "home + home mortgage + mortgage calculator",
+    "keyword_count": 5,
+    "avg_search_volume": 304.0,
+    "total_search_volume": 1520,
+    "avg_cpc": 3.24,
+    "filename": "data/clusters/semantic_cluster_13_home_home_mortgage_mortgage_calculator.csv"
+  },
+  {
+    "cluster_id": 14,
+    "cluster_name": "reverse mortgage + reverse + mortgage canada",
+    "keyword_count": 3,
+    "avg_search_volume": 3600.0,
+    "total_search_volume": 10800,
+    "avg_cpc": 12.9,
+    "filename": "data/clusters/semantic_cluster_14_reverse_mortgage_reverse_mortgage_canada.csv"
+  },
+  {
+    "cluster_id": 15,
+    "cluster_name": "company canada + mortgage company + company",
+    "keyword_count": 2,
+    "avg_search_volume": 880.0,
+    "total_search_volume": 1760,
+    "avg_cpc": 9.14,
+    "filename": "data/clusters/semantic_cluster_15_company_canada_mortgage_company_company.csv"
+  },
+  {
+    "cluster_id": 16,
+    "cluster_name": "housing + mortgage housing + corporation",
+    "keyword_count": 4,
+    "avg_search_volume": 2900.0,
+    "total_search_volume": 11600,
+    "avg_cpc": 3.64,
+    "filename": "data/clusters/semantic_cluster_16_housing_mortgage_housing_corporation.csv"
+  }
+]

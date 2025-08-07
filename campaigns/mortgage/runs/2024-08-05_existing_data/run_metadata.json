@@ -1,0 +1,10 @@
+{
+  "campaign": "mortgage",
+  "timestamp": "2024-08-05_existing_data",
+  "run_date": "2024-08-05T19:42:00",
+  "seeds": ["mortgage canada", "best mortgage rates", "home mortgage canada"],
+  "files_generated": ["enriched_keywords_v2.csv", "scored_keywords_v2.csv", "competitor_keywords_v2.csv", "filtered_keywords_v2.csv", "seed_keywords_v2.csv"],
+  "keywords_found": 86,
+  "avg_score": 45.9,
+  "description": "Initial comprehensive mortgage keyword research with enhanced V2 pipeline"
+}
