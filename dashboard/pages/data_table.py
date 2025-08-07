@@ -101,10 +101,10 @@ def render(filtered_df, selected_campaign):
         styled_df = df.style
         
         if 'difficulty_tier' in df.columns:
-            styled_df = styled_df.applymap(highlight_difficulty_tier, subset=['difficulty_tier'])
+            styled_df = styled_df.map(highlight_difficulty_tier, subset=['difficulty_tier'])
         
         if 'priority_tier' in df.columns:
-            styled_df = styled_df.applymap(highlight_priority_tier, subset=['priority_tier'])
+            styled_df = styled_df.map(highlight_priority_tier, subset=['priority_tier'])
         
         # Format numeric columns
         if 'search_volume' in df.columns:
